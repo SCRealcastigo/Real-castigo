@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Castigo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: white;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    header img {
+      max-height: 80px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #2c2c2c;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #444;
+    }
+    section {
+      padding: 1rem;
+    }
+    .jogador, .jogo {
+      background: #1e1e1e;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 5px;
+    }
+    .numero {
+      background: #444;
+      color: white;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      float: right;
+    }
+    .cap {
+      background: gold;
+      color: black;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      font-weight: bold;
+      float: right;
+    }
+    .logo-jogo {
+      height: 40px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logorc.png" alt="Logo do Real Castigo" />
+    <h1>Real Castigo</h1>
+  </header>
+  <nav>
+    <a href="#temporada">Temporada</a>
+    <a href="#elenco">Elenco</a>
+  </nav>
+
+  <section id="elenco">
+    <h2>Goleiros</h2>
+    <div class="jogador">Igor Lima <span class="numero">2</span></div>
+
+    <h2>Linhas</h2>
+    <div class="jogador">Cauê Soares <span class="cap">7 CAP</span></div>
+    <div class="jogador">Cadu <span class="numero">10</span></div>
+    <div class="jogador">Mika <span class="numero">11</span></div>
+    <div class="jogador">Negão <span class="numero">Camisa</span></div>
+    <div class="jogador">Enzo <span class="numero">Camisa</span></div>
+    <div class="jogador">Wesley <span class="numero">Camisa</span></div>
+    <div class="jogador">Luciano <span class="numero">Camisa</span></div>
+    <div class="jogador">David <span class="numero">Camisa</span></div>
+  </section>
+
+  <section id="temporada">
+    <h2>Jogos</h2>
+    <div class="jogo">
+      <img src="logorc.png" alt="Real Castigo" class="logo-jogo" />
+      <strong>Real Castigo</strong> 1 x 0 <strong>Time do Dex</strong>
+      <img src="download.png" alt="Time do Dex" class="logo-jogo" />
+      <br>⏰ 21:00 <br>🗓 Sexta-feira (16/5) <br>🏟 Ser Sadia
+    </div>
+
+    <div class="jogo">
+      <img src="logorc.png" alt="Real Castigo" class="logo-jogo" />
+      <strong>Real Castigo</strong> x <strong>Real Madruga</strong>
+      <img src="download.png" alt="Real Madruga" class="logo-jogo" />
+      <br>⏰ A definir <br>🗓 A definir <br>🏟 A definir
+    </div>
+
+    <div class="jogo">
+      <img src="logorc.png" alt="Real Castigo" class="logo-jogo" />
+      <strong>Real Castigo</strong> x <strong>Nankatsu</strong>
+      <img src="download.png" alt="Nankatsu" class="logo-jogo" />
+      <br>⏰ A definir <br>🗓 A definir <br>🏟 A definir
+    </div>
+  </section>
+</body>
+</html>
